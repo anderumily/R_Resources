@@ -1,3 +1,17 @@
+## Installation
+
+Direct install (requires admin privileges):
+1.	[Download and install R](https://cran.rstudio.com/)
+2.	[Download and install RStudio](https://rstudio.com/products/rstudio/download/#download)
+
+Software Centre (requires VPN connection):
+1.	Open the Software Centre 
+2.	In the Software Centre, in the top right hand search bar type “R for Windows”
+    a.	Click on “R for Windows 3.6.2” and install – accept the default settings
+    b.	Do not install Microsoft R Open 3.4.2
+3.	In the Software Centre, in the top right hand search bar type “RStudio”
+    a.	Click on RStudio 1.2.5001 and install – accept the default settings
+
 ## Sessions
 
 ### April 20, 2020
@@ -6,7 +20,7 @@
 - Intro to packages: dplyr, ggplot2, tidyhydat, weathercan
 - [Cheatsheets](https://rstudio.com/resources/cheatsheets/): start with Base, RStudio IDE, dplyr, ggplot2
 - [rseek.org](https://rseek.org/)
-- Sources:[Centre for Hydrology GitHub](https://github.com/CentreForHydrology), [tidyhydat GitHub](https://github.com/ropensci/tidyhydat), [weathercan GitHub](https://github.com/rchlumsk/tRaining)
+- Sources: [Centre for Hydrology](https://github.com/CentreForHydrology), [tidyhydat](https://github.com/ropensci/tidyhydat), [weathercan](https://github.com/rchlumsk/tRaining)
 
 ### April 30, 2020
 - More examples
@@ -22,18 +36,19 @@
 - [Hydrology packages on CRAN](https://cran.r-project.org/web/views/Hydrology.html)
 - [tidyhydat](https://docs.ropensci.org/tidyhydat/)
 - [weathercan](https://docs.ropensci.org/weathercan/)
+- [CSHShydRology](https://github.com/CSHS-CWRA/CSHShydRology)
 
 ## Tips
 - [Add a header snippet](http://timfarewell.co.uk/my-r-script-header-template/)
 - Use [styler](https://styler.r-lib.org/) for easy formatting
 - Get help more easily using [reprex](https://www.tidyverse.org/help/)
-- Make pasting links easier 
+- Make pasting links easier: 
 
 ```r
 snippet pp
     "`r gsub('"', "", gsub("\\\\", "/", readClipboard()))`"
 ```
-[source](https://stackoverflow.com/questions/17605563/efficiently-convert-backslash-to-forward-slash-in-r)
+    [source](https://stackoverflow.com/questions/17605563/efficiently-convert-backslash-to-forward-slash-in-r)
 
 ## Other
 
