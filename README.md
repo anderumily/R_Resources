@@ -41,27 +41,33 @@ Software Centre (requires VPN connection):
 - [CSHShydRology](https://github.com/CSHS-CWRA/CSHShydRology)
 
 ## Webinars
+
 - [CSHS hydRology Introduction to R](https://www.youtube.com/watch?reload=9&v=obXb9MAlZ-M)
 - [Intro to Working with Canadian Data](https://www.youtube.com/watch?v=56mrlRvTmao)
 - [CSHS Webinar R Markdown with Dr Kevin Shook](https://www.youtube.com/watch?v=TH3oDhRrEy0)
-- [More CWRA webinars](https://cwra.org/en/resources/webinars/)
+- [Using Git and GitHub with R](https://register.gotowebinar.com/register/861710757767612429) (June 3, 2020) 
 
 ## Useful Guides
 
 - [Style Guide](https://style.tidyverse.org/)
 - [Geocomputation with R](https://geocompr.robinlovelace.net/)
+- [Using Version Control with RStudio](https://support.rstudio.com/hc/en-us/articles/200532077?version=1.2.5001&mode=desktop)
+- [Happy Git with R](https://happygitwithr.com/index.html)
 
 ## Papers
 
 - [R-functions for Canadian hydrologists: a Canada-wide collaboration](https://www.usask.ca/hydrology/papers/Anderson_et_al_2019.pdf)
 - [Data Organization in Spreadsheets](https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989)
 
-## Organizing your repo
+
+## Organizing your project
+
 - use this repo as a template
 - use relative paths, not absolute paths
 - never alter original data files
 
 ## Tips
+
 - [Add a header snippet](http://timfarewell.co.uk/my-r-script-header-template/)
 
 ```r
@@ -69,26 +75,28 @@ snippet header
 	# -------------------------------------------------------------------------
 	# Date created:      `r paste(Sys.Date())`
 	# Author(s):         Your name
-	# Description:       Write a description
+	# Description:       Write a description.
 	#   
 	# Required input(s): N/A
 	# Optional input(s): N/A
-	# Outputs:           N/A
+	# Output(s):         N/A
 	# -------------------------------------------------------------------------
 	
 	
 	# set up ------------------------------------------------------------------
 	
+	# set working directory
 	setwd("")
 	
 	# load libaries
 	library()
 	
 	# load necessary packages
-	# source("functions/packages.R")       
+	source("functions/packages.R")       
 	
-	# load up functions into memory
-	# source("functions/summarise_data.R") 
+	# load functions into memory
+	source("functions/summarise_data.R") 
+	
 ```
 
 - Use [styler](https://styler.r-lib.org/) for easy formatting
