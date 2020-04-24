@@ -25,7 +25,7 @@ Software Centre (requires VPN connection):
 - Sources: [Centre for Hydrology](https://github.com/CentreForHydrology), [tidyhydat](https://github.com/ropensci/tidyhydat), [weathercan](https://github.com/rchlumsk/tRaining)
 
 ### April 30, 2020
-- More [examples] (https://github.com/anderumily/R_Resources/tree/master/code)
+- More [examples](https://github.com/anderumily/R_Resources/tree/master/code)
 - Useful snippets
 - Organizing your code
 - if statements and loops
