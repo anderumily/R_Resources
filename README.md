@@ -36,10 +36,14 @@ Software Centre (requires VPN connection):
 ## Hydrology Packages
 
 - [Hydrology packages on CRAN](https://cran.r-project.org/web/views/Hydrology.html)
-- [tidyhydat](https://docs.ropensci.org/tidyhydat/)
-- [weathercan](https://docs.ropensci.org/weathercan/)
+- [tidyhydat](https://docs.ropensci.org/tidyhydat/): Canadian water data
+- [weathercan](https://docs.ropensci.org/weathercan/): Canadian weather data
+- [waterData](https://cran.rstudio.com/web/packages/waterData/index.html): USGS water data
 - [CSHShydRology](https://github.com/CSHS-CWRA/CSHShydRology)
-
+- remember to cite packages e.g.
+```r 
+citation("tidyhydat")
+```
 ## Webinars
 
 - [CSHS hydRology Introduction to R](https://www.youtube.com/watch?reload=9&v=obXb9MAlZ-M)
@@ -56,9 +60,9 @@ Software Centre (requires VPN connection):
 
 ## Papers
 
-- [R-functions for Canadian hydrologists: a Canada-wide collaboration](https://www.usask.ca/hydrology/papers/Anderson_et_al_2019.pdf)
+- [Why Watershed Analysts Should Use R for Data Processing and Analysis](https://www.researchgate.net/publication/326597102_Why_Watershed_Analysts_Should_Use_R_for_Data_Processing_and_Analysis)
+- [R-functions for Canadian hydrologists: a Canada-wide collaboration](https://www.tandfonline.com/doi/full/10.1080/07011784.2018.1492884)
 - [Data Organization in Spreadsheets](https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989)
-
 
 ## Organizing your project
 
