@@ -40,6 +40,7 @@ Software Centre (requires VPN connection):
 - [weathercan](https://docs.ropensci.org/weathercan/): Canadian weather data
 - [waterData](https://cran.rstudio.com/web/packages/waterData/index.html): USGS water data
 - [CSHShydRology](https://github.com/CSHS-CWRA/CSHShydRology)
+- [fasstr](https://github.com/bcgov/fasstr): Flow Analysis Summary Statistics Tool for R
 - remember to cite packages e.g.
 ```r 
 citation("tidyhydat")
@@ -81,11 +82,7 @@ snippet header
 	# Author(s):         Your name
 	# Description:       Write a description.
 	#   
-	# Required input(s): N/A
-	# Optional input(s): N/A
-	# Output(s):         N/A
 	# -------------------------------------------------------------------------
-	
 	
 	# set up ------------------------------------------------------------------
 	
@@ -94,12 +91,6 @@ snippet header
 	
 	# load libaries
 	library()
-	
-	# load necessary packages
-	source("functions/packages.R")       
-	
-	# load functions into memory
-	source("functions/summarise_data.R") 
 	
 ```
 
