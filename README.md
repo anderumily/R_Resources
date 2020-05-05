@@ -13,6 +13,13 @@ Software Centre (requires VPN connection):
 2.	In the Software Centre, in the top right hand search bar type “RStudio”
 
     a.	Click on RStudio 1.2.5001 and install – accept the default settings
+    
+## Webinars
+
+- **Start here!** [CSHS hydRology Introduction to R](https://www.youtube.com/watch?reload=9&v=obXb9MAlZ-M)
+- [Intro to Working with Canadian Data](https://www.youtube.com/watch?v=56mrlRvTmao)
+- [CSHS Webinar R Markdown with Dr Kevin Shook](https://www.youtube.com/watch?v=TH3oDhRrEy0)
+- [Using Git and GitHub with R](https://register.gotowebinar.com/register/861710757767612429) (June 3, 2020) 
 
 ## Sessions
 
@@ -28,14 +35,6 @@ Software Centre (requires VPN connection):
 - More [examples](https://github.com/anderumily/R_Resources/tree/master/code)
 - Useful snippets
 - Organizing your code
-- if statements and loops
-
-## Webinars
-
-- **Start here!** [CSHS hydRology Introduction to R](https://www.youtube.com/watch?reload=9&v=obXb9MAlZ-M)
-- [Intro to Working with Canadian Data](https://www.youtube.com/watch?v=56mrlRvTmao)
-- [CSHS Webinar R Markdown with Dr Kevin Shook](https://www.youtube.com/watch?v=TH3oDhRrEy0)
-- [Using Git and GitHub with R](https://register.gotowebinar.com/register/861710757767612429) (June 3, 2020) 
 
 ## Intro R & RStudio
 [R for Data Science](https://r4ds.had.co.nz/)
